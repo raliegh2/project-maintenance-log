@@ -1,0 +1,37 @@
+name: Daily public project maintenance inventory
+
+on:
+  schedule:
+    - cron: '17 14 * * *'
+    - cron: '47 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-maintenance-inventory
+  cancel-in-progress: false
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the log repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Collect read-only public repository evidence
+        run: python3 scripts/collect.py
+      - name: Save automated report to this repository only
+        run: |
+          git add -- reports latest.md
+          if git diff --cached --quiet; then
+            echo 'No new daily report to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -c core.hooksPath=/dev/null commit --author='raliegh2 <147728099+raliegh2@users.noreply.github.com>' -m 'docs: record automated daily public repository checks'
+          git push origin HEAD:main
