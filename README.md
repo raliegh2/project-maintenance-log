@@ -2,7 +2,7 @@
 
 Daily, **automatically generated** inventory checks for public repositories owned by [raliegh2](https://github.com/raliegh2). This project demonstrates a small, reproducible GitHub Actions monitoring workflow. Reports are automation output, not evidence of daily manual coding or a security audit.
 
-**Setup status:** The collector and first report are published. The scheduled workflow is prepared locally but awaits GitHub OAuth `workflow` permission before it can be uploaded and enabled. Daily automation is not active yet.
+**Setup status:** The collector, first report, and scheduled workflow are published. A manual GitHub Actions smoke run completed successfully. Daily scheduled automation is enabled.
 
 ## What it checks
 
