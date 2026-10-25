@@ -1,15 +1,16 @@
 # Latest automated maintenance inventory
 
-Bogota date: 2026-10-24. Collected at 2026-10-24T17:25:32.288542+00:00.
+Bogota date: 2026-10-25. Collected at 2026-10-25T17:38:25.175949+00:00.
 
 Generated automatically. These observations are not a security assessment or proof of daily manual coding.
 
-[JSON evidence](reports/2026-10-24.json)
+[JSON evidence](reports/2026-10-25.json)
 
 | Public repository | Default branch | README | Security policy | License | Commit lookup |
 | --- | --- | --- | --- | --- | --- |
 | [raliegh2/church-care-hub](https://github.com/raliegh2/church-care-hub) | main | present | absent | Not declared | Retrieved |
 | [raliegh2/command-deck-cloud-agents](https://github.com/raliegh2/command-deck-cloud-agents) | main | present | absent | Not declared | Retrieved |
+| [raliegh2/command-deck-workspaces](https://github.com/raliegh2/command-deck-workspaces) | main | present | absent | MIT | Retrieved |
 | [raliegh2/m5-bridge](https://github.com/raliegh2/m5-bridge) | main | present | absent | Not declared | Retrieved |
 | [raliegh2/portfolio-engineering-suite](https://github.com/raliegh2/portfolio-engineering-suite) | main | present | absent | Not declared | Retrieved |
 | [raliegh2/raliegh-ai-control-center](https://github.com/raliegh2/raliegh-ai-control-center) | main | present | absent | Not declared | Retrieved |
