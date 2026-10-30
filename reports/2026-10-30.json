@@ -1,0 +1,107 @@
+{
+  "date_bogota": "2026-10-30",
+  "collected_at_utc": "2026-10-30T19:19:52.663393+00:00",
+  "generated_by": "automated GitHub Actions/public metadata collector",
+  "scope": "Public repository inventory; not a security assessment or manual coding activity",
+  "repositories": [
+    {
+      "repository": "raliegh2/church-care-hub",
+      "url": "https://github.com/raliegh2/church-care-hub",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "654f4070ff471ccd0897c926eaf3332c24e39336",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/command-deck-cloud-agents",
+      "url": "https://github.com/raliegh2/command-deck-cloud-agents",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "cce93022dbfeafe657e7de3ebd6876eb3446d2a7",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/command-deck-workspaces",
+      "url": "https://github.com/raliegh2/command-deck-workspaces",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "ed7bb14e7d3ed0b73e4e2cbba6e8a3912de807df",
+      "commit_lookup_error": null,
+      "license": "MIT",
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/m5-bridge",
+      "url": "https://github.com/raliegh2/m5-bridge",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "57921d2829d37da56db09fea3ce320969e717973",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/portfolio-engineering-suite",
+      "url": "https://github.com/raliegh2/portfolio-engineering-suite",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "26532289661501d43e5b03620c462b9598cef6c6",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/raliegh-ai-control-center",
+      "url": "https://github.com/raliegh2/raliegh-ai-control-center",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "eb297a1fdd7c3124e648fa2a482179cad5c288e0",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/raliegh-cybersecurity-portfolio",
+      "url": "https://github.com/raliegh2/raliegh-cybersecurity-portfolio",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "655964a8868e0be6c36b0efcdc6df2fdc367662a",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/visitorcounter",
+      "url": "https://github.com/raliegh2/visitorcounter",
+      "availability": "public metadata retrieved",
+      "default_branch": "dev",
+      "latest_commit_sha": "7c2e699ad19dbccbbd780514adab6866a01c4042",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    },
+    {
+      "repository": "raliegh2/webaudit",
+      "url": "https://github.com/raliegh2/webaudit",
+      "availability": "public metadata retrieved",
+      "default_branch": "main",
+      "latest_commit_sha": "b8e2081d8d069f1d02172d59798ebdf58af6b992",
+      "commit_lookup_error": null,
+      "license": null,
+      "readme": "present",
+      "security_policy": "absent"
+    }
+  ]
+}
